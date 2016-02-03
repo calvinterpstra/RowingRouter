@@ -14,6 +14,7 @@
 		C1274A9E1C62659200BDE2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1274A9C1C62659200BDE2D8 /* LaunchScreen.storyboard */; };
 		C1274AA91C62659200BDE2D8 /* RowingRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1274AA81C62659200BDE2D8 /* RowingRouterTests.swift */; };
 		C1274AB41C62659200BDE2D8 /* RowingRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1274AB31C62659200BDE2D8 /* RowingRouterUITests.swift */; };
+		CA8C475B5F9AD3D6E086AEDB /* Pods_RowingRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0794D42C9BAC55384A9475 /* Pods_RowingRouter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A464ED1D7A07E24835C3171 /* Pods-RowingRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RowingRouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RowingRouter/Pods-RowingRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		80F05688AF7573FE3F99CB27 /* Pods-RowingRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RowingRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-RowingRouter/Pods-RowingRouter.release.xcconfig"; sourceTree = "<group>"; };
 		C1274A901C62659100BDE2D8 /* RowingRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowingRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1274A931C62659200BDE2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1274A951C62659200BDE2D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		C1274AAF1C62659200BDE2D8 /* RowingRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowingRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1274AB31C62659200BDE2D8 /* RowingRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowingRouterUITests.swift; sourceTree = "<group>"; };
 		C1274AB51C62659200BDE2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0794D42C9BAC55384A9475 /* Pods_RowingRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RowingRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8C475B5F9AD3D6E086AEDB /* Pods_RowingRouter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31DBE87D4F36523CF1BAC9C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB0794D42C9BAC55384A9475 /* Pods_RowingRouter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95D1197A72D9532C1461133B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A464ED1D7A07E24835C3171 /* Pods-RowingRouter.debug.xcconfig */,
+				80F05688AF7573FE3F99CB27 /* Pods-RowingRouter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1274A871C62659100BDE2D8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				C1274AA71C62659200BDE2D8 /* RowingRouterTests */,
 				C1274AB21C62659200BDE2D8 /* RowingRouterUITests */,
 				C1274A911C62659100BDE2D8 /* Products */,
+				95D1197A72D9532C1461133B /* Pods */,
+				31DBE87D4F36523CF1BAC9C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1274AB81C62659200BDE2D8 /* Build configuration list for PBXNativeTarget "RowingRouter" */;
 			buildPhases = (
+				B79FADA047CDF6D2205188FE /* Check Pods Manifest.lock */,
 				C1274A8C1C62659100BDE2D8 /* Sources */,
 				C1274A8D1C62659100BDE2D8 /* Frameworks */,
 				C1274A8E1C62659100BDE2D8 /* Resources */,
+				37D4151E38346B3E786031BB /* Embed Pods Frameworks */,
+				2D0B1BEB281AE3BB772E5806 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D0B1BEB281AE3BB772E5806 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RowingRouter/Pods-RowingRouter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D4151E38346B3E786031BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RowingRouter/Pods-RowingRouter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79FADA047CDF6D2205188FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1274A8C1C62659100BDE2D8 /* Sources */ = {
@@ -398,6 +473,7 @@
 		};
 		C1274AB91C62659200BDE2D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A464ED1D7A07E24835C3171 /* Pods-RowingRouter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RowingRouter/Info.plist;
@@ -409,6 +485,7 @@
 		};
 		C1274ABA1C62659200BDE2D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F05688AF7573FE3F99CB27 /* Pods-RowingRouter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RowingRouter/Info.plist;
@@ -485,6 +562,7 @@
 				C1274ABA1C62659200BDE2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1274ABB1C62659200BDE2D8 /* Build configuration list for PBXNativeTarget "RowingRouterTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +571,7 @@
 				C1274ABD1C62659200BDE2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1274ABE1C62659200BDE2D8 /* Build configuration list for PBXNativeTarget "RowingRouterUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +580,7 @@
 				C1274AC01C62659200BDE2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
