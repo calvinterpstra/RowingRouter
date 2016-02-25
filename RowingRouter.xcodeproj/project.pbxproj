@@ -14,6 +14,8 @@
 		C1274A9E1C62659200BDE2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1274A9C1C62659200BDE2D8 /* LaunchScreen.storyboard */; };
 		C1274AA91C62659200BDE2D8 /* RowingRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1274AA81C62659200BDE2D8 /* RowingRouterTests.swift */; };
 		C1274AB41C62659200BDE2D8 /* RowingRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1274AB31C62659200BDE2D8 /* RowingRouterUITests.swift */; };
+		C1C3233B1C6A5C300011D212 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3233A1C6A5C300011D212 /* Trip.swift */; };
+		C1CE70FF1C63C7FB0055BFB4 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE70FE1C63C7FB0055BFB4 /* TimeTable.swift */; };
 		CA8C475B5F9AD3D6E086AEDB /* Pods_RowingRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0794D42C9BAC55384A9475 /* Pods_RowingRouter.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		C1274AAF1C62659200BDE2D8 /* RowingRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowingRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1274AB31C62659200BDE2D8 /* RowingRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowingRouterUITests.swift; sourceTree = "<group>"; };
 		C1274AB51C62659200BDE2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C3233A1C6A5C300011D212 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		C1CE70FE1C63C7FB0055BFB4 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 		EB0794D42C9BAC55384A9475 /* Pods_RowingRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RowingRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +127,8 @@
 			children = (
 				C1274A931C62659200BDE2D8 /* AppDelegate.swift */,
 				C1274A951C62659200BDE2D8 /* ViewController.swift */,
+				C1CE70FE1C63C7FB0055BFB4 /* TimeTable.swift */,
+				C1C3233A1C6A5C300011D212 /* Trip.swift */,
 				C1274A971C62659200BDE2D8 /* Main.storyboard */,
 				C1274A9A1C62659200BDE2D8 /* Assets.xcassets */,
 				C1274A9C1C62659200BDE2D8 /* LaunchScreen.storyboard */,
@@ -334,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C3233B1C6A5C300011D212 /* Trip.swift in Sources */,
 				C1274A961C62659200BDE2D8 /* ViewController.swift in Sources */,
+				C1CE70FF1C63C7FB0055BFB4 /* TimeTable.swift in Sources */,
 				C1274A941C62659200BDE2D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
